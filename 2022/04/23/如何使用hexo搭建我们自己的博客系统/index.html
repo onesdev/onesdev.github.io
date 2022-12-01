@@ -43,9 +43,10 @@
 <meta property="og:image" content="https://www.jimmy-wang.com/2022/04/23/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E6%88%91%E4%BB%AC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F/2022-04-24-08-40-48.png">
 <meta property="og:image" content="https://www.jimmy-wang.com/2022/04/23/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E6%88%91%E4%BB%AC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F/2022-04-24-12-50-10.png">
 <meta property="article:published_time" content="2022-04-23T15:45:03.000Z">
-<meta property="article:modified_time" content="2022-12-01T15:32:26.033Z">
+<meta property="article:modified_time" content="2022-12-01T16:10:30.963Z">
 <meta property="article:author" content="Jimmy Wang">
-<meta property="article:tag" content="hexo, 博客">
+<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="博客">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.jimmy-wang.com/2022/04/23/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E6%88%91%E4%BB%AC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F/image-20220422222801751.png">
   
@@ -281,7 +282,7 @@
 
 
 <p>hexo会在<code>source/_posts</code>目录下创建一个<code>test.md</code>文件，我们在这里使用markdown语法写博客即可：</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs markdown">---<br>title: test<br>date: 2022-04-22 21:17:39<br>tags: hexo<br><span class="hljs-section">categories: 教程</span><br><span class="hljs-section">---</span><br><br><span class="hljs-section"># 一级标题</span><br><br><span class="hljs-section">## 二级标题</span><br><br>这里开始我们的写作吧<br></code></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs markdown">---<br>title: test<br>date: 2022-04-22 21:17:39<br>tags: <br><span class="hljs-bullet">-</span> hexo<br><span class="hljs-bullet">-</span> 博客<br><span class="hljs-section">categories: 教程</span><br><span class="hljs-section">---</span><br><br><span class="hljs-section"># 一级标题</span><br><br><span class="hljs-section">## 二级标题</span><br><br>这里开始我们的写作吧<br></code></pre></td></tr></table></figure>
 
 <p>上面文件最上方以<code>---</code>分隔的区域，用于指定文章属性（<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/front-matter">Front-matter | Hexo</a>），常用的属性就是<code>title</code>, <code>date</code>, <code>tag</code>, <code>categories</code>，分别指定文章标题、建立日期、标签和分类。其中标题和建立日期都是自动生成的，我们不用管。tag和categories一般是由我们自己设置的。</p>
 <p>hexo中的分类categories和标签tag的区别在于：<strong>categories编译后对应的是一个分类目录，而tag只是一个标记</strong>：</p>
@@ -454,7 +455,9 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/hexo-%E5%8D%9A%E5%AE%A2/">hexo, 博客</a>
+                      <a class="hover-with-bg" href="/tags/hexo/">hexo</a>
+                    
+                      <a class="hover-with-bg" href="/tags/%E5%8D%9A%E5%AE%A2/">博客</a>
                     
                   </div>
                 
